@@ -16,5 +16,8 @@ if (empty($url_array[2])) {
 if (is_file($view)) {
 	include $view;
 }
+else {
+	include ("public/views/errors/404.view.php");
+}
 
 include ("public/views/layout/layout_bottom.php");
