@@ -53,23 +53,12 @@
 					cancel: 'Annuler'
 				},
 				format: 'dd mmmm yyyy'
-			});
-
-			// if ($('.datepicker').length) {
-			// 	M.toast({html: $(this).toString()});
-			// }
-
-			
+			});			
 
 			$('.scrollspy').scrollSpy();
 			$('.sidenav').sidenav();
 		});
 
-		$('.datepicker').on("change", function() {
-			M.toast({html: $('.datepicker').datepicker('toString')});
-		});
-
-		
 	</script>
 
 </html>
