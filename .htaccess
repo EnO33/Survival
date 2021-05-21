@@ -1,5 +1,5 @@
 Options +FollowSymLinks
 RewriteEngine On
-RewriteBase /
+RewriteBase /Survival
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php [NC,L]
