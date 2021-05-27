@@ -29,6 +29,6 @@
 		<li><a href="badges.html">Components</a></li>
 		<li><a href="collapsible.html">Javascript</a></li>
 		<li><div class="divider"></div></li>
-		<li><a href="mobile.html">Profil</a></li>
+		<li><a href="<?= $Conf->getRacine(); ?> /profile">Profil</a></li>
 	</ul>
 </header>
