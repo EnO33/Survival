@@ -14,7 +14,7 @@ class Config {
 	/**
 	*   Default Constructor 
 	*
-	*	Populate the @var _conf the decoded json content of the configuration file specified int the @var _config_file.
+	*	Populate the @var _conf the decoded json content of the configuration file specified in the @var _config_file.
 	*
 	*/
 
