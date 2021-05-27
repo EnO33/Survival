@@ -8,7 +8,7 @@
 					<li><a href="sass.html">Sass</a></li>
 					<li><a href="badges.html">Components</a></li>
 					<li><a href="collapsible.html">Javascript</a></li>
-					<li><a href="mobile.html">Profil</a></li>
+					<li><a href="<?= $Conf->getRacine(); ?> /profile">Profil</a></li>
 				</ul>
 			</div>
 		</div>
